@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="btn">
+            <button class="ContactUs" id="ContactUs">Contact Us</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="popup" id="popup">
+            <div class="popup-form">
+                <h3>Let's Get in Touch</h3>
+                <img src="./assets/close-btn.png" alt="Close" class="close" id="closeBtn">
+
+                <form id="contactForm">
+                    <label for="name">Name :</label><br>
+                    <input type="text" name="name" id="name"><br>
+                    <span class="error" id="nameError"></span>
+
+                    <label for="address">Address :</label><br>
+                    <input type="text" name="address" id="address"><br>
+                    <span class="error" id="addressError"></span>
+
+                    <label for="phoneNumber">Phone Number :</label><br>
+                    <input type="text" name="phoneNumber" id="phoneNumber"><br>
+                    <span class="error" id="phoneError"></span>
+
+                    <label for="email">Email :</label><br>
+                    <input type="text" name="email" id="email"><br>
+                    <span class="error" id="emailError"></span>
+
+                    <label for="message">Message :</label><br>
+                    <textarea name="message" id="message"></textarea><br>
+                    <span class="error" id="messageError"></span>
+
+                    <button type="submit" class="send" id="send">Send</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
+
